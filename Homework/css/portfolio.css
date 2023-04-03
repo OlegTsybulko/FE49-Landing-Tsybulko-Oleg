@@ -1,0 +1,61 @@
+.awesome {
+}
+.text {
+   margin: auto;
+   text-align: center;
+   font-family: Open Sans;
+   font-style: Regular;
+   font-size: 14px;
+   color: #86878B;
+   margin-bottom: 91px;
+}
+.portfolio {
+   display: flex;
+   justify-content: space-between;
+
+
+}
+.portfolio-card {
+   width: 350px;
+   padding: 20px;
+
+
+}
+.portfolio-card__img {
+border: 1px solid red;
+border-radius: 50%;
+width: 70px;
+height: 70px;
+margin: 0 auto 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.portfolio-card__title {
+   text-align: center;
+   font-family: open sans;
+   font-style: bold;
+   font-size: 17.6px;
+   margin-bottom: 30.38px;
+   font-weight: 700px;
+
+}
+.portfolio-card__text {
+   margin: auto;
+   text-align: center;
+   font-family: open sanse;
+   font-style: regular;
+   font-size: 12.32px;
+   color: #000000;
+   margin-bottom: 20px;
+   padding-bottom: 50px;
+
+
+}
+.line{
+   border: 1px solid #E72424;
+   width: 62px;
+   height: 2px;
+   margin: auto;
+   margin-bottom: 34px;
+}
