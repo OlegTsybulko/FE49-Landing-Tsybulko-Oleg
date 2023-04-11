@@ -12,9 +12,12 @@
 }
 
 .contener{
-width: 1170px;
+margin: auto;
+max-width: 1170px;
 padding: 0 15px;
-margin:auto;
+position: relative;
+z-index: 9999;
+
 }
 .html{
 font-family: "Raleway";
@@ -28,7 +31,31 @@ font-family: "Raleway";
    margin: auto;
    text-align: center;
    text-transform: uppercase;
-   margin-bottom: 34;
-   padding: 20px;
+   
+   
+}
+.title::after{
+   content: "";
+   width: 62px;
+   height: 2px; 
+   background-color: #E72424;
+   display: block;
+   align-content: center;
+   margin: auto;
+   margin-top: 34px;
+   margin-bottom: 34px;
+}
+.saying-card__description::after{
+   content: "";
+   width: 0px;
+   height: 0px;
+   width: 0;
+   height: 0;
+   border-left: 20px solid transparent; 
+   border-right: 20px solid transparent; 
+   border-top: 20px solid #E2E2E2;
+   top: 55px;
+   right: 80px;
+   position: relative;
 }
 
