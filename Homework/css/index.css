@@ -3,7 +3,7 @@
 @import url("./main.css");
 @import url("./portfolio.css");
 
-*{
+* {
    margin: 0;
    padding: 0;
    list-style: none;
@@ -11,30 +11,26 @@
    box-sizing: border-box;
 }
 
-.contener{
-margin: auto;
+.contener {
 max-width: 1170px;
+margin: auto;
 padding: 0 15px;
 position: relative;
-z-index: 9999;
-
+z-index: 100;
 }
-.html{
-font-family: "Raleway";
+.html {
+font-family: 'raleway';
 }
-.title{
+.title {
    color: #212121;
-   font-family: raleway;
-   font-style: regular;
-   width: 668px;
+   font-family: 'raleway';
+   font-style: 'regular';
    font-size: 36px;
-   margin: auto;
    text-align: center;
    text-transform: uppercase;
-   
-   
 }
-.title::after{
+
+.title::after {
    content: "";
    width: 62px;
    height: 2px; 
@@ -47,15 +43,11 @@ font-family: "Raleway";
 }
 .saying-card__description::after{
    content: "";
-   width: 0px;
-   height: 0px;
-   width: 0;
-   height: 0;
    border-left: 20px solid transparent; 
    border-right: 20px solid transparent; 
    border-top: 20px solid #E2E2E2;
-   top: 55px;
-   right: 80px;
-   position: relative;
+   top: 100%;
+   left: 50px;
+   position: absolute;
 }
 
