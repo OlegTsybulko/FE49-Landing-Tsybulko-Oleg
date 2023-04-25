@@ -2,6 +2,14 @@
 @import url("./header.css");
 @import url("./main.css");
 @import url("./portfolio.css");
+@import url("./pricing.css");
+@import url("./customers.css");
+@import url("./background.css");
+@import url("./social.css");
+@import url("./footer.css");
+@import url("./inform.css");
+@import url("./contact.css");
+@import url("./tabs.css");
 
 * {
    margin: 0;
@@ -20,6 +28,7 @@ z-index: 100;
 }
 .html {
 font-family: 'raleway';
+font-size: 1rem;
 }
 .title {
    color: #212121;
@@ -51,3 +60,141 @@ font-family: 'raleway';
    position: absolute;
 }
 
+@media (max-width: 1200px) {
+.contener{
+   width: 970px;
+}
+.html {
+   font-size: 12px;
+}
+.media{
+   margin: auto;
+   margin-bottom: 20px;
+}
+.navigationicons{
+   margin: auto;
+}
+.content-img{
+   margin: auto;
+}
+.awesome-card{
+   width: 250px;
+}
+.pricing-card{
+   max-width: 250px;
+}
+.saying-card{
+   width: 250px;
+}
+.button__button{
+   margin: auto;
+}
+}
+
+@media (max-width: 992px) {
+   .contener {
+      width: 750px;
+   }
+   .html{
+      font-size: 12px;
+   }
+   .infolink{
+      margin-bottom: 20px;
+   }
+   .inaxit{
+      margin: auto;
+   }
+   .content{
+      margin: auto;
+      max-width: 320px;
+   }
+   .media{
+      margin: auto;
+      margin-bottom: 20px;
+   }
+   .awesome-card{
+      width: 200px;
+      padding: 20px;
+   }
+   .pricing-card{
+      width: 180px;
+   }
+   .saying-card{
+      width: 200px;
+   }
+   
+   .content-form {
+      margin: auto;
+      margin-bottom: 20px;
+   }
+   .massege{
+      margin: auto;
+      margin-bottom: 20px;
+   }
+}
+
+@media (max-width: 767px) {
+   .contener{
+      width: 100%;
+}
+.header-tabs{
+   display: flex;
+   margin: 0 auto;
+   margin-bottom: 20px;
+}
+.content-tab{
+   margin: auto;
+   text-align: center;
+}
+.link-tab{
+   margin: auto;
+}
+.content-img{
+   margin-top: 20px;
+}
+.awesome-wrap{
+   flex-direction: column;
+   align-items: center;
+}
+.awesome-card{
+   padding: 10px;
+   width: 400px;
+}
+
+.prising-wrap{
+   flex-direction: column;
+}
+.fa-facebook{
+   font-size: 30px;
+}
+.fa-twitter{
+   font-size: 30px;
+}
+.fa-tiktok{
+   font-size: 30px;
+}
+.fa-telegram{
+   font-size: 30px;
+}
+.fa-vk{
+   font-size: 30px;
+}
+.fa-windows{
+   font-size: 30px;
+   }
+.fa-wifi{
+   font-size: 30px;
+}
+.navigationicons{
+   max-width: 600px;
+}
+}
+@media (max-width: 566px) {
+.contener{
+   width: 100%;
+}
+}
+
+@media (max-width: 320px) {
+
+}

@@ -1,0 +1,81 @@
+.contact {
+   padding: 20px 0;
+}
+.contener {
+}
+.title {
+}
+.description {
+}
+.contact-form {
+}
+.contact-form-wrap {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 60px;
+}
+.content-form {
+}
+.content-form-itm {
+   padding: 20px 0;
+}
+.content-form-itm__label {
+   display: block;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 0.875em;
+   color: #BDBDBD;
+}
+.content-form-itm__input {
+   width: 478px;
+   border: none;
+   border-bottom: 1px solid #BDB;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 0.875em;
+   color: coral;
+}
+.content-form-itm__input:focus{
+   outline: none;
+}
+.massege {
+   width: 40%;
+}
+.massege__label {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 0.875em;
+   color: #BDBDBD;
+}
+.massege__textarea {
+   width: 100%;
+   height: 158px;
+   resize: none;
+   border: none;
+   border-bottom: 1px solid #BDB;
+   color: coral;
+}
+textarea:focus{
+   outline: none;
+}
+.sand-massege {
+   margin: auto;
+   display: flex;
+   border: 1px solid coral;
+   Height:42px;
+   text-align: center;
+   padding: 10px;
+   color: wheat;
+   background: #EC7979;
+   cursor: pointer;
+}
+.sand-massege:hover{
+   transform: scale(1.2);
+   color:black;
+   background: #ffff;
+}

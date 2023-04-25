@@ -1,0 +1,157 @@
+.inform { 
+   padding: 89px 0;
+   background-image: url("../img/background-1\ 1.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   top: 0px;
+   left: 0px;
+}
+
+
+.inform-wrap {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.inaxit{
+   margin: 0 15px;
+}
+.inform-axit {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 3.75em;
+margin-bottom: 42px;
+}
+.inform-ax {
+   color: #FFFFFF;
+}
+.inform-it{
+   color: #EC7979;
+}
+
+.infotitle {
+   width: 400px;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   color: #FFFFFF;
+}
+.infotitle::after{
+   content: "";
+   width: 62px;
+   height: 2px; 
+   background-color: #FFFFFF;
+   display: block;
+   align-content: center;
+   margin-top: 39px;
+   margin-bottom: 39px;
+}
+.infodescription {
+   width: 277px;
+   margin-bottom: 44px;
+   color: #FFFFFF;
+}
+
+.infolink {
+   width: 135px;
+   height: 42px;
+   border: 1px solid #FFFFFF;
+   text-align: center;
+   padding: 10px;
+   transition: 0.2s;
+}
+.infolink p{
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 0.9375em;
+   color: #FFFFFF;
+   text-align: center;
+}
+.infolink p:hover{
+   color: #BDBDBD;
+}
+.infolink:hover{
+   transform: scale(1.3);
+   transition: 0.1s;
+   background: #E2E2E2;
+}
+.content-wrap{
+   padding: 20px;
+   justify-content: space-between;
+}
+.form-tatle {
+   border-radius: 8px 8px 0 0;
+   font-family: 'Open Sans';
+   font-style: 'normal';
+   font-weight: 700px;
+   font-size: 1.25em;
+   text-align: center;
+   padding: 20px;
+   margin-bottom: 44px;
+}
+.form{
+   background: #FFFFFF;
+   border-radius: 8px;
+   overflow: hidden;
+   max-width: 370px;
+}
+.form-wrap{
+   margin: 50px 50px 50px 50px;
+}
+.form-wrap-content{
+   margin-bottom: 50px;
+}
+.form-wrap-content__label{
+   display: block;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 0.875em;
+   color: #BDBDBD;
+}
+.form-wrap-content__input{
+   width: 70%;
+   border: none;  
+   border-bottom: 1px solid #BDBDBD;
+   color: coral;
+}
+.form-wrap-content__input:focus{
+   outline: none;
+}
+.button{
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 0.9375em;   
+   border: 1px solid #EC7979;
+   overflow: hidden;
+   background:#EC7979;
+   border-radius: 0  0 8px 8px;
+   width: 370px;
+   height: 40px;
+   text-align: center;
+   padding: 10px;  
+}
+.button__button{
+   border: none;
+   border: transparent;
+   background: transparent;
+   color: #FFFFFF;
+   transition: 0.1s;
+}
+.button:hover{
+   transform: scale(1.2);
+   transition: 0.1s;
+   cursor: pointer;
+}
+.button__button:hover{
+   cursor: pointer;
+}
+.free{
+   color: #EC7979;
+}
