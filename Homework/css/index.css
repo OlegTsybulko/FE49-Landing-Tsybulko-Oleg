@@ -137,6 +137,9 @@ font-size: 1rem;
    .contener{
       width: 100%;
 }
+.inform-wrap{
+   flex-direction: column;
+}
 .header-tabs{
    display: flex;
    margin: 0 auto;
@@ -157,38 +160,26 @@ font-size: 1rem;
    align-items: center;
 }
 .awesome-card{
-   padding: 10px;
    width: 400px;
 }
-
-.prising-wrap{
+.saying{
    flex-direction: column;
+   align-items: center;
 }
-.fa-facebook{
-   font-size: 30px;
+.saying-card{
+   margin-bottom: 30px;
 }
-.fa-twitter{
-   font-size: 30px;
+
+.pricing-wrap{
+   flex-direction: column;
+   align-items: center;
 }
-.fa-tiktok{
-   font-size: 30px;
-}
-.fa-telegram{
-   font-size: 30px;
-}
-.fa-vk{
-   font-size: 30px;
-}
-.fa-windows{
-   font-size: 30px;
-   }
-.fa-wifi{
-   font-size: 30px;
-}
-.navigationicons{
-   max-width: 600px;
+.pricing-card{
+   width: 600px;
+   margin-bottom: 30px;
 }
 }
+
 @media (max-width: 566px) {
 .contener{
    width: 100%;

@@ -20,14 +20,13 @@
    width: 400px;
 }
 .navigationicons-list {
-   width: 684px;
    display: flex;
 }
 .navigationicons-list__itm {
    margin-left: 48px;
 }
 .fa-facebook__social {
-   font-size: 3.125em;
+   font-size: 1.25em;
    color: 86878B;
    transition: 0,2s;
 }
@@ -38,7 +37,7 @@
    box-shadow: 3px 3px 3px 3px ;
 }
 .fa-twitter__social {
-   font-size: 3.125em;
+   font-size: 1.25em;
    color: 86878B;
    transition: 0,2s;
 }
@@ -49,7 +48,7 @@
    box-shadow: 0 0 10px 2px;
 }
 .fa-tiktok__social {
-   font-size:3.125em;
+   font-size: 1.25em;
    color: 86878B;
    transition: 0,2s;
 }
@@ -60,7 +59,7 @@
    box-shadow: 10px 0 10px 0;
 }
 .fa-telegram__social {
-   font-size: 3.125em;
+   font-size: 1.25em;
    color: 86878B;
    transition: 0,2s;
 }
@@ -71,7 +70,7 @@
    box-shadow: 0px 0px 15px 5px;
 }
 .fa-vk__social {
-   font-size: 3.125em;
+   font-size: 1.25em;
    color: 86878B;
    transition: 0,2s;
 }
@@ -81,7 +80,7 @@ color: #768ff4;
 box-shadow: 10px 0 0 5px 5px;
 }
 .fa-windows__social {
-   font-size: 3.125em;
+   font-size: 1.25em;
    color: 86878B;
    transition: 0,2s;
 }
@@ -91,7 +90,7 @@ box-shadow: 10px 0 0 5px 5px;
    color: hsl(248, 94%, 51%);
 }
 .fa-wifi__social{
-   font-size: 3.125em;
+   font-size: 1.25em;
    color: 86878B;
    transition: 0,2s;
 }
